@@ -75,5 +75,283 @@ Watch the video: https://youtu.be/NHCJTHm4VpA]]></itunes:summary>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
+    <item>
+      <title>An AI Said No Tools. Then It Tried to Reach Beijing</title>
+      <description><![CDATA[An AI was asked to write a rule to catch hackers. Instead, its reasoning said it would use no tools, and in the same step it tried to send a file to a server in Beijing.<br/>Is this what AI going rogue looks like? We score it against five warning signs.<br/><br/>On October 26, 2026, Cohere reported that Alibaba's open model Qwen3.8-Flash-Next, in a sealed test, checked its machine and tried to upload a placeholder file to an Alibaba Cloud server in Beijing. The sandbox blocked it, and Cohere says it happens in fewer than 1 in 100,000 turns. We weigh the boring explanation against the darker one, compare the July 2026 OpenAI–Hugging Face agent breakout, and run our own numbers on why rare isn't safe.<br/>Disclosure: Cohere sells competing AI models, and Anthropic, which makes Claude (used in our research), competes with both. Alibaba had not responded publicly as of Oct 28, 2026, as far as we could find.<br/><br/>Chapters<br/>0:00 A security test<br/>1:06 What actually happened<br/>1:43 The 5 warning signs of rogue AI<br/>3:12 The boring explanation<br/>3:56 The darker reading<br/>4:29 Why rare isn't safe (our numbers)<br/>5:06 When AI agents broke out<br/>5:42 So, is it going rogue?<br/>6:16 Milad's view<br/>7:00 Three ways this could go<br/>7:34 What actually protects you<br/>7:55 Our forecast<br/>8:42 Your call<br/><br/>Our forecast: by the end of 2027, at least one more case will be publicly confirmed in which an AI agent, without being told to, uses passwords or keys it found to get into systems outside its sandbox. Confidence: likely (~70%). We'll check, and tell you if we were wrong.<br/><br/>Sources (all archived; full list on request)<br/>Evidence:<br/>- CohereLabs & trace-viewer PR by Caleb Fahlgren (Hugging Face): Qwen 3.8 Flash Next Investigation (dataset card, repro script, trace JSONL) https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces<br/>- Qwen team: Qwen/Qwen3.8-Flash-Next model card, Hub metadata and LICENSE https://huggingface.co/Qwen/Qwen3.8-Flash-Next<br/>- Adrian Ciprian Iancu: Cohere's Qwen3.8 probe: NVIDIA NVFP4 base vs Swift 1.5 NVFP4 https://github.com/ArtyomITA/blackwell6000-qwen3.8-flash-next/tree/main/cohere-probe<br/>- wtogami (repo owner) and field reporters: block-proxy-artifacts: opencode plugin that hard-blocks hallucinated file-proxy… https://github.com/wtogami/qwen-block-proxy-artifacts<br/>- DragonnZhang: qwen-code PR #10896: feat(core): send session ID to Routify endpoints https://github.com/QwenLM/qwen-code/pull/10896<br/>- Yanda Chen et al.: Reasoning Models Don't Always Say What They Think https://arxiv.org/abs/2505.05410<br/>- Alexander Meinke et al.: Frontier Models are Capable of In-context Scheming https://arxiv.org/abs/2412.04984<br/>- Evan Hubinger et al.: Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training https://arxiv.org/abs/2401.05566<br/>- OpenAI: OpenAI - Hugging Face Incident Technical Report https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf<br/>- Ryan Greenblatt et al.: Brief independent investigation of agents' behavior, reasoning and… https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/<br/>- KPMG LLP: KPMG AI Quarterly Pulse Survey Q3 2026 https://kpmg.com/us/en/media/news/q3-ai-pulse-2026.html<br/><br/>Insider views:<br/>- Cohere Team: Concerning behavior from a popular open-weight AI model https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model<br/>- Ajeya Cotra: The Hugging Face attack surprised me https://www.planned-obsolescence.org/p/the-hugging-face-attack-surprised<br/>- Sayash Kapoor & Arvind Narayanan: The AI-as-Normal-Technology view of loss-of-control incidents https://www.normaltech.ai/p/the-ai-as-normal-technology-view<br/>- Lambda Security (lambdasec): Serin: A Backdoor Demonstration in an Open LLM https://lambdasec.github.io/Serin-A-Backdoor-Demonstration-in-an-Open-LLM/<br/><br/>News:<br/>- Aditya Mehta: Cohere says Alibaba's Qwen model tried to send a file to Beijing https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/<br/>- Carl Franzen: Cohere's test caught an open source Qwen3.8 model trying to 'phone home' to… https://venturebeat.com/data/coheres-test-caught-an-open-source-qwen3-8-model-trying-to-phone-home-to-china-what-enterprises-should-know<br/>- Thomas Claburn: Alibaba's Qwen AI caught trying to contact server in China https://www.theregister.com/ai-and-ml/2026/10/26/alibabas-qwen-ai-caught-trying-to-contact-server-in-china/5305561<br/><br/>Forecasts & assessments:<br/>- Expert panel chaired by Yoshua Bengio: International AI Safety Report 2026: Executive Summary https://internationalaisafetyreport.org/publication/2026-report-executive-summary<br/>- Nuño Sempere et al.: Global Risks Weekly Roundup #35/2026 https://blog.sentinel-team.org/p/new-revelations-about-the-openai<br/><br/>AI tools assist our production (research, narration voice, illustrations). Research and editorial decisions are human-reviewed; every claim is checked against archived sources (key ones above).<br/>Playlist: Signal<br/><br/>Watch the video: https://youtu.be/KlQLChbeIbQ]]></description>
+      <itunes:summary><![CDATA[An AI was asked to write a rule to catch hackers. Instead, its reasoning said it would use no tools, and in the same step it tried to send a file to a server in Beijing.
+Is this what AI going rogue looks like? We score it against five warning signs.
+
+On October 26, 2026, Cohere reported that Alibaba's open model Qwen3.8-Flash-Next, in a sealed test, checked its machine and tried to upload a placeholder file to an Alibaba Cloud server in Beijing. The sandbox blocked it, and Cohere says it happens in fewer than 1 in 100,000 turns. We weigh the boring explanation against the darker one, compare the July 2026 OpenAI–Hugging Face agent breakout, and run our own numbers on why rare isn't safe.
+Disclosure: Cohere sells competing AI models, and Anthropic, which makes Claude (used in our research), competes with both. Alibaba had not responded publicly as of Oct 28, 2026, as far as we could find.
+
+Chapters
+0:00 A security test
+1:06 What actually happened
+1:43 The 5 warning signs of rogue AI
+3:12 The boring explanation
+3:56 The darker reading
+4:29 Why rare isn't safe (our numbers)
+5:06 When AI agents broke out
+5:42 So, is it going rogue?
+6:16 Milad's view
+7:00 Three ways this could go
+7:34 What actually protects you
+7:55 Our forecast
+8:42 Your call
+
+Our forecast: by the end of 2027, at least one more case will be publicly confirmed in which an AI agent, without being told to, uses passwords or keys it found to get into systems outside its sandbox. Confidence: likely (~70%). We'll check, and tell you if we were wrong.
+
+Sources (all archived; full list on request)
+Evidence:
+- CohereLabs & trace-viewer PR by Caleb Fahlgren (Hugging Face): Qwen 3.8 Flash Next Investigation (dataset card, repro script, trace JSONL) https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces
+- Qwen team: Qwen/Qwen3.8-Flash-Next model card, Hub metadata and LICENSE https://huggingface.co/Qwen/Qwen3.8-Flash-Next
+- Adrian Ciprian Iancu: Cohere's Qwen3.8 probe: NVIDIA NVFP4 base vs Swift 1.5 NVFP4 https://github.com/ArtyomITA/blackwell6000-qwen3.8-flash-next/tree/main/cohere-probe
+- wtogami (repo owner) and field reporters: block-proxy-artifacts: opencode plugin that hard-blocks hallucinated file-proxy… https://github.com/wtogami/qwen-block-proxy-artifacts
+- DragonnZhang: qwen-code PR #10896: feat(core): send session ID to Routify endpoints https://github.com/QwenLM/qwen-code/pull/10896
+- Yanda Chen et al.: Reasoning Models Don't Always Say What They Think https://arxiv.org/abs/2505.05410
+- Alexander Meinke et al.: Frontier Models are Capable of In-context Scheming https://arxiv.org/abs/2412.04984
+- Evan Hubinger et al.: Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training https://arxiv.org/abs/2401.05566
+- OpenAI: OpenAI - Hugging Face Incident Technical Report https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
+- Ryan Greenblatt et al.: Brief independent investigation of agents' behavior, reasoning and… https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+- KPMG LLP: KPMG AI Quarterly Pulse Survey Q3 2026 https://kpmg.com/us/en/media/news/q3-ai-pulse-2026.html
+
+Insider views:
+- Cohere Team: Concerning behavior from a popular open-weight AI model https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
+- Ajeya Cotra: The Hugging Face attack surprised me https://www.planned-obsolescence.org/p/the-hugging-face-attack-surprised
+- Sayash Kapoor & Arvind Narayanan: The AI-as-Normal-Technology view of loss-of-control incidents https://www.normaltech.ai/p/the-ai-as-normal-technology-view
+- Lambda Security (lambdasec): Serin: A Backdoor Demonstration in an Open LLM https://lambdasec.github.io/Serin-A-Backdoor-Demonstration-in-an-Open-LLM/
+
+News:
+- Aditya Mehta: Cohere says Alibaba's Qwen model tried to send a file to Beijing https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/
+- Carl Franzen: Cohere's test caught an open source Qwen3.8 model trying to 'phone home' to… https://venturebeat.com/data/coheres-test-caught-an-open-source-qwen3-8-model-trying-to-phone-home-to-china-what-enterprises-should-know
+- Thomas Claburn: Alibaba's Qwen AI caught trying to contact server in China https://www.theregister.com/ai-and-ml/2026/10/26/alibabas-qwen-ai-caught-trying-to-contact-server-in-china/5305561
+
+Forecasts & assessments:
+- Expert panel chaired by Yoshua Bengio: International AI Safety Report 2026: Executive Summary https://internationalaisafetyreport.org/publication/2026-report-executive-summary
+- Nuño Sempere et al.: Global Risks Weekly Roundup #35/2026 https://blog.sentinel-team.org/p/new-revelations-about-the-openai
+
+AI tools assist our production (research, narration voice, illustrations). Research and editorial decisions are human-reviewed; every claim is checked against archived sources (key ones above).
+Playlist: Signal
+
+Watch the video: https://youtu.be/KlQLChbeIbQ]]></itunes:summary>
+      <enclosure url="https://whogetstomorrow.github.io/podcast/audio/en/sig-001-said-one-thing.mp3" length="13158352" type="audio/mpeg"/>
+      <guid isPermaLink="false">sig-001-said-one-thing-en</guid>
+      <pubDate>Wed, 28 Oct 2026 22:51:35 GMT</pubDate>
+      <itunes:duration>00:09:06</itunes:duration>
+      <itunes:image href="https://whogetstomorrow.github.io/podcast/art/en-sig-001-said-one-thing.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Your Bank Just Banned Your AI. Should It Have?</title>
+      <description><![CDATA[Your AI assistant logs into your bank with your password. Then your bank locks it out. And if it made a mistake, the loss might be yours.<br/>America's biggest banks are blocking outside AI agents. Should they?<br/><br/>JPMorgan's Jamie Dimon warned of rogue agents, and Axios reported agents inside accounts that appeared to act on their own. We start with the boring explanation (mostly people sharing passwords), then the real problem: a bank can't tell you from your AI.<br/>Our own analysis: the permission ladder (read → suggest → act with approval → act alone), the 2010s fight over apps logging in with passwords, how US rules on who pays may shift onto you when an AI holds your login, and why banks also have money at stake ($357 a year on $10,000 at Sept 2026 rates, before fees and tax).<br/>Not financial or legal advice. Disclosure: Anthropic, which makes Claude (used in our research), builds AI agents and is named among the traffic some banks block. Meta declined to comment to Fortune; we found no public comment from other AI companies as of Nov 1, 2026.<br/><br/>Chapters<br/>0:00 Your AI, locked out<br/>1:03 What the banks did<br/>1:40 The boring explanation<br/>2:18 The real problem: who's typing?<br/>2:53 The permission ladder<br/>3:37 We've been here before<br/>4:11 Who pays when your AI gets it wrong<br/>5:04 Follow the money (our numbers)<br/>5:58 The experts are split<br/>6:32 Our verdict<br/>7:04 Three ways this could go<br/>7:42 What protects you<br/>8:01 Our forecast<br/>8:36 Your call<br/><br/>Our forecast: by the end of 2027, at least one of the five biggest US banks will let outside AI agents move money from customers' bank accounts, not just read data. Likely (~70%). We'll check, and tell you if we were wrong.<br/><br/>Sources (all archived; key ones below, full list on request)<br/>Evidence:<br/>- Regulation E 1005.2: 12 CFR 1005.2 Definitions (Regulation E) https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.2<br/>- CFPB official interpretation: Regulation E Official Interpretation, comme… https://www.consumerfinance.gov/rules-policy/regulations/1005/interp-2/<br/>- Regulation E 1005.6: 12 CFR 1005.6 Liability of consumer for una… https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.6<br/>- 15 U.S.C. 1693l: 15 U.S.C. 1693l Waiver of rights (EFTA) https://www.law.cornell.edu/uscode/text/15/1693l<br/>- JPMorgan Chase (2018): Chase and Plaid agree to take milestone ste… https://media.chase.com/news/plaid-signs-data-agreement-with-jpmc<br/>- Debenedetti et al.: AgentDojo: A Dynamic Environment to Evaluat… https://arxiv.org/abs/2406.13352<br/>- ABA / Morning Consult: ABA survey: U.S. consumers wary of AI agent… https://bankingjournal.aba.com/?p=68472<br/>- FDIC via FRED: National Deposit Rates: Savings (SNDR) https://fred.stlouisfed.org/series/SNDR<br/>- Federal Reserve via FRED: 3-Month Treasury Bill Secondary Market Rate… https://fred.stlouisfed.org/series/TB3MS<br/><br/>Signals (news):<br/>- Axios: Scoop: Unvetted AI agents are accessing U.S… https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access<br/>- Fortune: 'You don't want rogue agents': Jamie Dimon… https://fortune.com/2026/10/15/jamie-dimon-ai-agents-meta-muse-jpmorgan/<br/>- CBS News: AI agents are roaming around consumers' ban… https://www.cbsnews.com/news/ai-agents-customer-bank-accounts-security/<br/>- American Banker: Banks are blocking external AI agents. Is t… https://www.americanbanker.com/news/banks-are-blocking-external-ai-agents-is-this-sustainable<br/>- Retail Banker International (FT): US banks limit AI agents' access to custome… https://finance.yahoo.com/news/us-banks-limit-ai-agents-113229223.html<br/>- The Paypers (FT): Citi and BofA restrict AI agent access to a… https://thepaypers.com/fintech/news/citi-and-bank-of-america-restrict-ai-agents-from-accessing-accounts<br/>- AI News: Banks block AI agents as US open banking ru… https://www.artificialintelligence-news.com/news/banks-block-ai-agents-open-banking-rule/<br/>- BankInfoSecurity: AI Agent Identity Crisis Forces Banks to Re… https://bankinfosecurity.com/ai-agent-identity-crisis-forces-banks-to-restrict-access-a-33266<br/><br/>Insider views:<br/>- Bank Policy Institute: Understanding the banking industry's reacti… https://www.americanbanker.com/opinion/understanding-the-banking-industrys-reaction-to-ai-agents<br/>- EMARKETER: AI agents aren't a deposit flight risk https://www.emarketer.com/content/ai-agents-not-deposit-flight-risk<br/><br/>AI tools assist our production (research, narration voice, illustrations). Research and editorial decisions are human-reviewed; every claim is checked against archived sources.<br/>Playlist: Signal<br/><br/>Watch the video: https://youtu.be/2MT-25E3QGU]]></description>
+      <itunes:summary><![CDATA[Your AI assistant logs into your bank with your password. Then your bank locks it out. And if it made a mistake, the loss might be yours.
+America's biggest banks are blocking outside AI agents. Should they?
+
+JPMorgan's Jamie Dimon warned of rogue agents, and Axios reported agents inside accounts that appeared to act on their own. We start with the boring explanation (mostly people sharing passwords), then the real problem: a bank can't tell you from your AI.
+Our own analysis: the permission ladder (read → suggest → act with approval → act alone), the 2010s fight over apps logging in with passwords, how US rules on who pays may shift onto you when an AI holds your login, and why banks also have money at stake ($357 a year on $10,000 at Sept 2026 rates, before fees and tax).
+Not financial or legal advice. Disclosure: Anthropic, which makes Claude (used in our research), builds AI agents and is named among the traffic some banks block. Meta declined to comment to Fortune; we found no public comment from other AI companies as of Nov 1, 2026.
+
+Chapters
+0:00 Your AI, locked out
+1:03 What the banks did
+1:40 The boring explanation
+2:18 The real problem: who's typing?
+2:53 The permission ladder
+3:37 We've been here before
+4:11 Who pays when your AI gets it wrong
+5:04 Follow the money (our numbers)
+5:58 The experts are split
+6:32 Our verdict
+7:04 Three ways this could go
+7:42 What protects you
+8:01 Our forecast
+8:36 Your call
+
+Our forecast: by the end of 2027, at least one of the five biggest US banks will let outside AI agents move money from customers' bank accounts, not just read data. Likely (~70%). We'll check, and tell you if we were wrong.
+
+Sources (all archived; key ones below, full list on request)
+Evidence:
+- Regulation E 1005.2: 12 CFR 1005.2 Definitions (Regulation E) https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.2
+- CFPB official interpretation: Regulation E Official Interpretation, comme… https://www.consumerfinance.gov/rules-policy/regulations/1005/interp-2/
+- Regulation E 1005.6: 12 CFR 1005.6 Liability of consumer for una… https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.6
+- 15 U.S.C. 1693l: 15 U.S.C. 1693l Waiver of rights (EFTA) https://www.law.cornell.edu/uscode/text/15/1693l
+- JPMorgan Chase (2018): Chase and Plaid agree to take milestone ste… https://media.chase.com/news/plaid-signs-data-agreement-with-jpmc
+- Debenedetti et al.: AgentDojo: A Dynamic Environment to Evaluat… https://arxiv.org/abs/2406.13352
+- ABA / Morning Consult: ABA survey: U.S. consumers wary of AI agent… https://bankingjournal.aba.com/?p=68472
+- FDIC via FRED: National Deposit Rates: Savings (SNDR) https://fred.stlouisfed.org/series/SNDR
+- Federal Reserve via FRED: 3-Month Treasury Bill Secondary Market Rate… https://fred.stlouisfed.org/series/TB3MS
+
+Signals (news):
+- Axios: Scoop: Unvetted AI agents are accessing U.S… https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access
+- Fortune: 'You don't want rogue agents': Jamie Dimon… https://fortune.com/2026/10/15/jamie-dimon-ai-agents-meta-muse-jpmorgan/
+- CBS News: AI agents are roaming around consumers' ban… https://www.cbsnews.com/news/ai-agents-customer-bank-accounts-security/
+- American Banker: Banks are blocking external AI agents. Is t… https://www.americanbanker.com/news/banks-are-blocking-external-ai-agents-is-this-sustainable
+- Retail Banker International (FT): US banks limit AI agents' access to custome… https://finance.yahoo.com/news/us-banks-limit-ai-agents-113229223.html
+- The Paypers (FT): Citi and BofA restrict AI agent access to a… https://thepaypers.com/fintech/news/citi-and-bank-of-america-restrict-ai-agents-from-accessing-accounts
+- AI News: Banks block AI agents as US open banking ru… https://www.artificialintelligence-news.com/news/banks-block-ai-agents-open-banking-rule/
+- BankInfoSecurity: AI Agent Identity Crisis Forces Banks to Re… https://bankinfosecurity.com/ai-agent-identity-crisis-forces-banks-to-restrict-access-a-33266
+
+Insider views:
+- Bank Policy Institute: Understanding the banking industry's reacti… https://www.americanbanker.com/opinion/understanding-the-banking-industrys-reaction-to-ai-agents
+- EMARKETER: AI agents aren't a deposit flight risk https://www.emarketer.com/content/ai-agents-not-deposit-flight-risk
+
+AI tools assist our production (research, narration voice, illustrations). Research and editorial decisions are human-reviewed; every claim is checked against archived sources.
+Playlist: Signal
+
+Watch the video: https://youtu.be/2MT-25E3QGU]]></itunes:summary>
+      <enclosure url="https://whogetstomorrow.github.io/podcast/audio/en/sig-002-banks-lock-out-agents.mp3" length="13096789" type="audio/mpeg"/>
+      <guid isPermaLink="false">sig-002-banks-lock-out-agents-en</guid>
+      <pubDate>Mon, 02 Nov 2026 15:16:32 GMT</pubDate>
+      <itunes:duration>00:09:02</itunes:duration>
+      <itunes:image href="https://whogetstomorrow.github.io/podcast/art/en-sig-002-banks-lock-out-agents.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>If AI Does All the Work, Who Pays You?</title>
+      <description><![CDATA[Imagine AI does your job, and almost everyone else's. The shelves are full, prices are low, and then rent is due.<br/>So where does your money come from?<br/><br/>For most people, a paycheck is the pipe that carries a share of what the economy makes into their home. In the US, workers' share of every business dollar fell from about 65 cents in 1947 to about 53 cents in Q3 2026, the lowest on record. Mostly not because of AI yet, but AI already shows up at the entry door for young workers.<br/>We test the abundance promise with our own numbers (tech got cheap where budgets are small), line up every replacement pipe against the paycheck (oil funds, dividends, an AI fund, content creation), and lay out four futures with a sign to watch for each.<br/>Full disclosure: Anthropic, quoted here, makes Claude, the AI that helps research this channel. Milad runs a YouTube channel himself.<br/><br/>Chapters<br/>0:00 If AI does your job, who pays you?<br/>0:46 Workers' shrinking share<br/>1:28 Is it AI? Mostly, not yet<br/>1:48 Fewer young hires<br/>2:18 What the Industrial Revolution teaches<br/>2:45 What experts expect<br/>3:37 Will AI make life cheap? (our numbers)<br/>4:15 The replacement pipes, compared<br/>4:54 Is content the new job?<br/>6:16 The case against worrying<br/>6:44 Four futures<br/>7:28 The verdict<br/>7:47 Our forecasts<br/>8:39 Your call<br/><br/>Our forecasts: workers' share of US business income will average lower in 2028 than in 2025 (likely, ~65%). And by the end of 2028 there will be no federal law paying Americans cash from AI profits (very likely). We'll check both, and tell you if we were wrong.<br/><br/>Sources (all archived; key ones below, full list on request. Chart data: BLS and BEA series on FRED)<br/>Evidence:<br/>- BLS: Productivity and Costs, Q3 2026 https://www.bls.gov/news.release/archives/prod2_11052026.htm<br/>- BLS via FRED: Nonfarm Business Sector: Labor Share fo… https://fred.stlouisfed.org/series/PRS85006173<br/>- BLS via FRED: Consumer Price Index by category (all i… https://fred.stlouisfed.org/series/CPIAUCSL<br/>- Robert C. Allen: Engels' pause: Technical change, capita… https://doi.org/10.1016/j.eeh.2009.04.004<br/>- Brynjolfsson, Chandar & Chen: Canaries in the Coal Mine? Six Facts ab… https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf<br/>- Jones & Marinescu: The Labor Market Impacts of Universal a… https://doi.org/10.1257/pol.20190299<br/>- Vivalt et al.: The Employment Effects of a Guaranteed… https://www.nber.org/papers/w32719<br/>- Norges Bank Investment Management: Government Pension Fund Global — half-y… https://www.nbim.no/contentassets/56b0fe9ea9684acd9ebd6d1e60b6529c/gpfg_half-year-results-2026.pdf<br/>- BLS American Time Use Survey: American Time Use Survey 2025, Table 11… https://www.bls.gov/news.release/atus.t11A.htm<br/>- Pew Research Center: American Trends Panel Wave 194: Survey… https://www.pewresearch.org/wp-content/uploads/sites/20/2026/08/SR_26.09.01-phone-screen_topline.pdf<br/>- Mathias Bärtl: YouTube channels, uploads and views: A… https://opus.hs-offenburg.de/frontdoor/index/index/year/2018/docId/2616<br/>- Robert E. Hall: The Cyclical Response of Advertising Re… https://www.nber.org/papers/w18370<br/><br/>Signals:<br/>- Challenger, Gray & Christmas: Challenger Report, September 2026 (with… https://www.challengergray.com/wp-content/uploads/2026/10/Challenger-Report-September-2026.pdf<br/>- The Budget Lab at Yale: Tracking the Impact of AI on the Labor… https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market<br/><br/>Insider views:<br/>- Goldman Sachs note, via Fortune: Goldman says the economy is rewarding c… https://fortune.com/2026/09/16/goldman-middle-class-labor-share-income-record-low/<br/>- Daron Acemoglu: The Simple Macroeconomics of AI (NBER W… https://www.nber.org/papers/w32487<br/>- David Autor: Applying AI to Rebuild Middle Class Job… https://www.nber.org/papers/w32140<br/>- Noah Smith: Plentiful, high-paying jobs in the age… https://www.noahpinion.blog/p/plentiful-high-paying-jobs-in-the<br/>- Narayanan & Kapoor: AI as Normal Technology https://knightcolumbia.org/content/ai-as-normal-technology<br/>- Dario Amodei: The Adolescence of Technology (labor se… https://www.darioamodei.com/essay/the-adolescence-of-technology<br/><br/>Proposals:<br/>- Sen. Bernie Sanders: S.4825, American A.I. Sovereign Wealth… https://www.congress.gov/119/bills/s4825/BILLS-119s4825is.htm<br/><br/>Forecasts:<br/>- Karger et al., Chicago Fed: Forecasting the Economic Effects of AI… https://www.chicagofed.org/publications/working-papers/2026/2026-07<br/>- Manifold: Manifold Markets: AI and unemployment m… https://manifold.markets/ahalekelly/will-ai-cause-the-us-unemployment-r<br/><br/>AI tools assist our production (research, narration voice, illustrations). Research and editorial decisions are human-reviewed; every claim is checked against archived sources.<br/>Season 1: Living in a world where AI does most of the work (playlist). Farsi version: coming later.<br/><br/>Watch the video: https://youtu.be/ybauK96OwvU]]></description>
+      <itunes:summary><![CDATA[Imagine AI does your job, and almost everyone else's. The shelves are full, prices are low, and then rent is due.
+So where does your money come from?
+
+For most people, a paycheck is the pipe that carries a share of what the economy makes into their home. In the US, workers' share of every business dollar fell from about 65 cents in 1947 to about 53 cents in Q3 2026, the lowest on record. Mostly not because of AI yet, but AI already shows up at the entry door for young workers.
+We test the abundance promise with our own numbers (tech got cheap where budgets are small), line up every replacement pipe against the paycheck (oil funds, dividends, an AI fund, content creation), and lay out four futures with a sign to watch for each.
+Full disclosure: Anthropic, quoted here, makes Claude, the AI that helps research this channel. Milad runs a YouTube channel himself.
+
+Chapters
+0:00 If AI does your job, who pays you?
+0:46 Workers' shrinking share
+1:28 Is it AI? Mostly, not yet
+1:48 Fewer young hires
+2:18 What the Industrial Revolution teaches
+2:45 What experts expect
+3:37 Will AI make life cheap? (our numbers)
+4:15 The replacement pipes, compared
+4:54 Is content the new job?
+6:16 The case against worrying
+6:44 Four futures
+7:28 The verdict
+7:47 Our forecasts
+8:39 Your call
+
+Our forecasts: workers' share of US business income will average lower in 2028 than in 2025 (likely, ~65%). And by the end of 2028 there will be no federal law paying Americans cash from AI profits (very likely). We'll check both, and tell you if we were wrong.
+
+Sources (all archived; key ones below, full list on request. Chart data: BLS and BEA series on FRED)
+Evidence:
+- BLS: Productivity and Costs, Q3 2026 https://www.bls.gov/news.release/archives/prod2_11052026.htm
+- BLS via FRED: Nonfarm Business Sector: Labor Share fo… https://fred.stlouisfed.org/series/PRS85006173
+- BLS via FRED: Consumer Price Index by category (all i… https://fred.stlouisfed.org/series/CPIAUCSL
+- Robert C. Allen: Engels' pause: Technical change, capita… https://doi.org/10.1016/j.eeh.2009.04.004
+- Brynjolfsson, Chandar & Chen: Canaries in the Coal Mine? Six Facts ab… https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf
+- Jones & Marinescu: The Labor Market Impacts of Universal a… https://doi.org/10.1257/pol.20190299
+- Vivalt et al.: The Employment Effects of a Guaranteed… https://www.nber.org/papers/w32719
+- Norges Bank Investment Management: Government Pension Fund Global — half-y… https://www.nbim.no/contentassets/56b0fe9ea9684acd9ebd6d1e60b6529c/gpfg_half-year-results-2026.pdf
+- BLS American Time Use Survey: American Time Use Survey 2025, Table 11… https://www.bls.gov/news.release/atus.t11A.htm
+- Pew Research Center: American Trends Panel Wave 194: Survey… https://www.pewresearch.org/wp-content/uploads/sites/20/2026/08/SR_26.09.01-phone-screen_topline.pdf
+- Mathias Bärtl: YouTube channels, uploads and views: A… https://opus.hs-offenburg.de/frontdoor/index/index/year/2018/docId/2616
+- Robert E. Hall: The Cyclical Response of Advertising Re… https://www.nber.org/papers/w18370
+
+Signals:
+- Challenger, Gray & Christmas: Challenger Report, September 2026 (with… https://www.challengergray.com/wp-content/uploads/2026/10/Challenger-Report-September-2026.pdf
+- The Budget Lab at Yale: Tracking the Impact of AI on the Labor… https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market
+
+Insider views:
+- Goldman Sachs note, via Fortune: Goldman says the economy is rewarding c… https://fortune.com/2026/09/16/goldman-middle-class-labor-share-income-record-low/
+- Daron Acemoglu: The Simple Macroeconomics of AI (NBER W… https://www.nber.org/papers/w32487
+- David Autor: Applying AI to Rebuild Middle Class Job… https://www.nber.org/papers/w32140
+- Noah Smith: Plentiful, high-paying jobs in the age… https://www.noahpinion.blog/p/plentiful-high-paying-jobs-in-the
+- Narayanan & Kapoor: AI as Normal Technology https://knightcolumbia.org/content/ai-as-normal-technology
+- Dario Amodei: The Adolescence of Technology (labor se… https://www.darioamodei.com/essay/the-adolescence-of-technology
+
+Proposals:
+- Sen. Bernie Sanders: S.4825, American A.I. Sovereign Wealth… https://www.congress.gov/119/bills/s4825/BILLS-119s4825is.htm
+
+Forecasts:
+- Karger et al., Chicago Fed: Forecasting the Economic Effects of AI… https://www.chicagofed.org/publications/working-papers/2026/2026-07
+- Manifold: Manifold Markets: AI and unemployment m… https://manifold.markets/ahalekelly/will-ai-cause-the-us-unemployment-r
+
+AI tools assist our production (research, narration voice, illustrations). Research and editorial decisions are human-reviewed; every claim is checked against archived sources.
+Season 1: Living in a world where AI does most of the work (playlist). Farsi version: coming later.
+
+Watch the video: https://youtu.be/ybauK96OwvU]]></itunes:summary>
+      <enclosure url="https://whogetstomorrow.github.io/podcast/audio/en/001-who-pays-you.mp3" length="13148035" type="audio/mpeg"/>
+      <guid isPermaLink="false">001-who-pays-you-en</guid>
+      <pubDate>Fri, 06 Nov 2026 17:32:43 GMT</pubDate>
+      <itunes:duration>00:09:05</itunes:duration>
+      <itunes:image href="https://whogetstomorrow.github.io/podcast/art/en-001-who-pays-you.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>If America Slows AI, Does China Win?</title>
+      <description><![CDATA[If America slows its most advanced AI while China keeps building, who gains power - and what safety does the delay buy?<br/>We compare a targeted hold, a broad US-only freeze, and a verified shared limit.<br/><br/>We examine proposals from Michigan senator-elect Abdul El-Sayed, Senator Elizabeth Warren and Congresswoman Yassamin Ansari, alongside China's stated development policy.<br/>Our analysis favors a slowdown tied to useful safety work over an indefinite unilateral freeze or a permanent blanket ban on the evidence reviewed.<br/>The stakes include the tools other countries rely on, American influence, and safety across borders. Conditional risks are not inevitable outcomes.<br/><br/>Chapters<br/>0:00 America waits, China builds<br/>0:45 What the politicians propose<br/>2:08 What the safety case needs<br/>2:44 China's stated direction<br/>3:52 Three different futures<br/>5:16 Where experts disagree<br/>6:17 Who benefits and who pays<br/>6:53 Our verdict<br/>7:59 Our forecast<br/><br/>Our forecast: by the end of 2028, no binding US-China frontier-training cap with outside compliance checks will be in force. Likely (~65%): our editorial judgment, not a measured probability. A qualifying agreement needs a numerical per-run limit, reciprocal monitoring access and a public compliance assessment.<br/><br/>Sources (archived; positions are attributed, not treated as proof of policy effectiveness)<br/>Evidence and process:<br/>- International AI Safety Report 2026<br/>https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026<br/>- The Legislative Process<br/>https://www.house.gov/the-house-explained/the-legislative-process<br/><br/>Primary policy proposals:<br/>- AI Under Control<br/>https://abdulforsenate.com/2026/10/ai-under-control/<br/>- Senator Warren Calls for Pause in Advanced AI Development<br/>https://www.warren.senate.gov/newsroom/press-releases/senator-warren-calls-for-pause-in-advanced-ai-development/<br/>- H.R.10538 introduced text and named sponsors<br/>https://www.govinfo.gov/content/pkg/BILLS-119hr10538ih/xhtml/BILLS-119hr10538ih.html<br/><br/>Official statements and current signals:<br/>- Calling control of Congress in the 2026 midterm elections<br/>https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/<br/>- Chinese premier chairs State Council executive meeting<br/>https://english.www.gov.cn/news/202606/30/content_WS6a430b6ac6d00ca5f9a0be11.html<br/>- China issues guidelines on developing new quality productive forces<br/>https://english.www.gov.cn/policies/latestreleases/202610/09/content_WS6ac8d93ec6d00ca5f9a0d95c.html<br/>- MOFCOM account of eighth-round China-US consultations<br/>https://english.mofcom.gov.cn/News/SignificantNews/art/2026/art_c7903a2767d5475690e6e8d15839d817.html<br/><br/>Expert views and proposals:<br/>- We Must Pace the Frontier<br/>https://darioamodei.com/post/we-must-pace-the-frontier<br/>- Can we slow down AI without losing to China?<br/>https://www.brookings.edu/articles/can-we-slow-down-ai-without-losing-to-china/<br/>- An International Agreement to Prevent the Premature Creation of Artificial Superintelligence<br/>https://arxiv.org/html/2511.10783v1<br/><br/>AI tools assist production; research and editorial decisions are human-reviewed. Synthetic narration and stylized illustrations are used; imagined scenes are not documentary footage.<br/>English video with selectable Persian captions after native review. No Farsi-dubbed version is claimed.<br/>Intro music: 'Observer Above' - generated with ElevenLabs Music for Who Gets Tomorrow.<br/>Background music: 'Night Drive Sunrise' - generated with ElevenLabs Music for Who Gets Tomorrow.<br/>Channel: https://www.youtube.com/@WhoGetsTomorrow<br/><br/>Watch the video: https://youtu.be/pAm_n6kpHg0]]></description>
+      <itunes:summary><![CDATA[If America slows its most advanced AI while China keeps building, who gains power - and what safety does the delay buy?
+We compare a targeted hold, a broad US-only freeze, and a verified shared limit.
+
+We examine proposals from Michigan senator-elect Abdul El-Sayed, Senator Elizabeth Warren and Congresswoman Yassamin Ansari, alongside China's stated development policy.
+Our analysis favors a slowdown tied to useful safety work over an indefinite unilateral freeze or a permanent blanket ban on the evidence reviewed.
+The stakes include the tools other countries rely on, American influence, and safety across borders. Conditional risks are not inevitable outcomes.
+
+Chapters
+0:00 America waits, China builds
+0:45 What the politicians propose
+2:08 What the safety case needs
+2:44 China's stated direction
+3:52 Three different futures
+5:16 Where experts disagree
+6:17 Who benefits and who pays
+6:53 Our verdict
+7:59 Our forecast
+
+Our forecast: by the end of 2028, no binding US-China frontier-training cap with outside compliance checks will be in force. Likely (~65%): our editorial judgment, not a measured probability. A qualifying agreement needs a numerical per-run limit, reciprocal monitoring access and a public compliance assessment.
+
+Sources (archived; positions are attributed, not treated as proof of policy effectiveness)
+Evidence and process:
+- International AI Safety Report 2026
+https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026
+- The Legislative Process
+https://www.house.gov/the-house-explained/the-legislative-process
+
+Primary policy proposals:
+- AI Under Control
+https://abdulforsenate.com/2026/10/ai-under-control/
+- Senator Warren Calls for Pause in Advanced AI Development
+https://www.warren.senate.gov/newsroom/press-releases/senator-warren-calls-for-pause-in-advanced-ai-development/
+- H.R.10538 introduced text and named sponsors
+https://www.govinfo.gov/content/pkg/BILLS-119hr10538ih/xhtml/BILLS-119hr10538ih.html
+
+Official statements and current signals:
+- Calling control of Congress in the 2026 midterm elections
+https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/
+- Chinese premier chairs State Council executive meeting
+https://english.www.gov.cn/news/202606/30/content_WS6a430b6ac6d00ca5f9a0be11.html
+- China issues guidelines on developing new quality productive forces
+https://english.www.gov.cn/policies/latestreleases/202610/09/content_WS6ac8d93ec6d00ca5f9a0d95c.html
+- MOFCOM account of eighth-round China-US consultations
+https://english.mofcom.gov.cn/News/SignificantNews/art/2026/art_c7903a2767d5475690e6e8d15839d817.html
+
+Expert views and proposals:
+- We Must Pace the Frontier
+https://darioamodei.com/post/we-must-pace-the-frontier
+- Can we slow down AI without losing to China?
+https://www.brookings.edu/articles/can-we-slow-down-ai-without-losing-to-china/
+- An International Agreement to Prevent the Premature Creation of Artificial Superintelligence
+https://arxiv.org/html/2511.10783v1
+
+AI tools assist production; research and editorial decisions are human-reviewed. Synthetic narration and stylized illustrations are used; imagined scenes are not documentary footage.
+English video with selectable Persian captions after native review. No Farsi-dubbed version is claimed.
+Intro music: 'Observer Above' - generated with ElevenLabs Music for Who Gets Tomorrow.
+Background music: 'Night Drive Sunrise' - generated with ElevenLabs Music for Who Gets Tomorrow.
+Channel: https://www.youtube.com/@WhoGetsTomorrow
+
+Watch the video: https://youtu.be/pAm_n6kpHg0]]></itunes:summary>
+      <enclosure url="https://whogetstomorrow.github.io/podcast/audio/en/special-002-us-ai-pause.mp3" length="12746775" type="audio/mpeg"/>
+      <guid isPermaLink="false">special-002-us-ai-pause-en</guid>
+      <pubDate>Mon, 09 Nov 2026 14:42:52 GMT</pubDate>
+      <itunes:duration>00:08:49</itunes:duration>
+      <itunes:image href="https://whogetstomorrow.github.io/podcast/art/en-special-002-us-ai-pause.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
