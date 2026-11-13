@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>آینده از آنِ کیست؟</title>
-    <link>https://whogetstomorrow.github.io/podcast/</link>
+    <link>https://www.youtube.com/@whogetstomorrow_farsi</link>
     <atom:link href="https://whogetstomorrow.github.io/podcast/feeds/fa.xml" rel="self" type="application/rss+xml"/>
     <language>fa</language>
     <description><![CDATA[هوش مصنوعی، قدرت و آیندهٔ انسان. در هر قسمت یک وعده یا ترس بزرگ دربارهٔ هوش مصنوعی را بررسی می‌کنیم: کار، درآمد، قدرت و کنترل. همیشه می‌گوییم چه چیزی می‌شنوید: واقعیت، تحلیل ما، پیش‌بینی یا سناریو، و هر ادعا با منابعی که ذکر می‌کنیم سنجیده می‌شود. در یوتیوب: @whogetstomorrow_farsi]]></description>
@@ -10,7 +10,7 @@
     <itunes:author>آینده از آنِ کیست؟</itunes:author>
     <itunes:owner><itunes:name>Who Gets Tomorrow</itunes:name><itunes:email>whogetstomorrow@gmail.com</itunes:email></itunes:owner>
     <itunes:image href="https://whogetstomorrow.github.io/podcast/art/show-fa.jpg"/>
-    <image><url>https://whogetstomorrow.github.io/podcast/art/show-fa.jpg</url><title>آینده از آنِ کیست؟</title><link>https://whogetstomorrow.github.io/podcast/</link></image>
+    <image><url>https://whogetstomorrow.github.io/podcast/art/show-fa.jpg</url><title>آینده از آنِ کیست؟</title><link>https://www.youtube.com/@whogetstomorrow_farsi</link></image>
     <itunes:category text="Technology"/>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>false</itunes:explicit>
