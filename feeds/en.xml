@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Who Gets Tomorrow</title>
+    <link>https://whogetstomorrow.github.io/podcast/</link>
+    <atom:link href="https://whogetstomorrow.github.io/podcast/feeds/en.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <description><![CDATA[AI, power, and the human future. Each episode takes one big promise or fear about AI (jobs, money, power, control) and tests it: what exactly is claimed, what the evidence says, what would have to be true, the strongest case against it, and who benefits and who pays. We label facts, our analysis, forecasts and scenarios, and every claim is checked against cited sources. Also on YouTube: @WhoGetsTomorrow.]]></description>
+    <itunes:summary><![CDATA[AI, power, and the human future. Each episode takes one big promise or fear about AI (jobs, money, power, control) and tests it: what exactly is claimed, what the evidence says, what would have to be true, the strongest case against it, and who benefits and who pays. We label facts, our analysis, forecasts and scenarios, and every claim is checked against cited sources. Also on YouTube: @WhoGetsTomorrow.]]></itunes:summary>
+    <itunes:author>Who Gets Tomorrow</itunes:author>
+    <itunes:owner><itunes:name>Who Gets Tomorrow</itunes:name><itunes:email>whogetstomorrow@gmail.com</itunes:email></itunes:owner>
+    <itunes:image href="https://whogetstomorrow.github.io/podcast/art/show-en.jpg"/>
+    <image><url>https://whogetstomorrow.github.io/podcast/art/show-en.jpg</url><title>Who Gets Tomorrow</title><link>https://whogetstomorrow.github.io/podcast/</link></image>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>If Anyone Can Make a Beautiful Image, Why Hire a Photographer?</title>
+      <description><![CDATA[Europe's biggest online fashion shop closed its photo studios as it switched to AI images. So if anyone can make a beautiful picture, why would a company still hire a photographer?<br/>We follow the money behind a commercial photo: who still gets paid, and who quietly doesn't.<br/><br/>A commercial shoot is a list of paid jobs: planning, photography, models, styling, lighting, studio space and retouching. AI can cut much of that list even when a photographer keeps a smaller job.<br/>We hear from working photographers on both sides: Jack Davison and Xiaopeng Zhan on what clients now ask for, and Fynn Badgley and Chris Howlett on where AI still falls short.<br/>Our analysis: the accounts suggest the market is dividing by volume, not by beauty. Fast, high-volume catalog work and its crews face real pressure, while careful high-end shoots change more slowly. These are chosen stories, not a survey, and no source gives a reliable total of jobs lost.<br/><br/>Chapters<br/>0:00 The studio that closed<br/>0:53 Why hire a photographer?<br/>1:18 The fear, stated fairly<br/>2:00 Losses beyond the camera<br/>2:37 One photo, many paid jobs<br/>3:29 What clients ask for now<br/>4:16 The strongest counter<br/>5:14 Volume, not beauty<br/>6:04 More pictures, less pay?<br/>6:33 Who wins, who pays<br/>7:35 Our forecast<br/>8:20 Your turn<br/><br/>Our forecast: in the first comparable Association of Photographers survey published in 2027, at least half of responding members will again report losing paid work to AI. Confidence: likely (about 65%). Wrong if below half; unresolved if no comparable survey appears in 2027.<br/><br/>Sources<br/>Evidence:<br/>- UK professional photography trade association: AOP Copyright & AI Member Survey Results, January 2026 https://www.the-aop.org/uploads/aop-member-survey-copyright-ai-january-2026.pdf<br/>- Reuters: Fashion's AI era: face swaps and digital clones https://www.reuters.com/legal/litigation/fashions-ai-era-face-swaps-digital-clones-2026-10-27/<br/><br/>Signals (individual accounts, unverified unless stated):<br/>- Unverified self-described commercial photographers and assistants: Public Reddit commercial-worker accounts: product photographers and photo assistants https://www.reddit.com/r/productphotography/comments/1tmpukb/product_photographer_replaced/<br/>- Wonderful Machine; photography production and consulting business: 2026 State of the Photo Industry Survey https://wonderfulmachine.com/article/state-of-the-photo-industry-2026/<br/>- Self (writer and e-commerce stylist): AI stole my styling job https://1granary.substack.com/p/ai-stole-my-styling-job<br/>- TalkPhotography forum (UK): High skill/high quality photography being rejected as AI? https://www.talkphotography.co.uk/posts/9742333/<br/><br/>Insider views:<br/>- PHLEARN; Photoshop Training Channel; PhotoshopCAFE: The Future of Photo Editing: The State of the Industry in 2026 https://phlearn.com/magazine/future-of-photo-editing/<br/>- Independent commercial food/product photographer; own business website: Real Food Product Photography Beats AI: Why Leading Brands Still Choose the Camera https://www.howlettphoto.com/blog/real-food-product-photography-beats-ai<br/>- Thomsen Photography; Profoto ambassador; AI-Mindset educator: How photographer Ines Thomsen lights up AI images with Profoto https://www.profoto.com/ee/en/still-photography/profoto-stories/how-photographer-ines-thomsen-lights-up-ai-images-with-profoto/BlogPage<br/>- Commercial photographer/creative director; Yummy Production, as identified in article biography: A Commercial Photographer's Take on When to Use AI (and When Not To) https://petapixel.com/2026/05/10/a-commercial-photographers-take-on-when-to-use-ai-and-when-not-to/<br/>- PetaPixel: Photographers Raise Concerns as AI Use Surges Among Clients https://petapixel.com/2026/04/22/photographers-raise-concerns-as-ai-use-surges-among-clients/<br/>- Fstoppers contributor; commercial fashion photographer: Has AI Ended My Fashion Photography Career? https://fstoppers.com/artificial-intelligence/ai-ended-my-fashion-photography-career-901334<br/><br/>Company claims:<br/>- Fashion retailer; first-party marketing announcement: H&M continues its exploration of creativity with AI https://hmgroup.com/news/hm-continues-its-exploration-of-creativity-with-ai/<br/><br/>Made with AI: the narration voice is synthetic and the illustrations are AI-generated and clearly illustrative, not photographs of real people or events. AI tools assist production; research and editorial decisions are human-reviewed.<br/>Corrections: if new evidence changes our verdict, we log it and follow up.<br/><br/>Watch the video: https://youtu.be/NHCJTHm4VpA]]></description>
+      <itunes:summary><![CDATA[Europe's biggest online fashion shop closed its photo studios as it switched to AI images. So if anyone can make a beautiful picture, why would a company still hire a photographer?
+We follow the money behind a commercial photo: who still gets paid, and who quietly doesn't.
+
+A commercial shoot is a list of paid jobs: planning, photography, models, styling, lighting, studio space and retouching. AI can cut much of that list even when a photographer keeps a smaller job.
+We hear from working photographers on both sides: Jack Davison and Xiaopeng Zhan on what clients now ask for, and Fynn Badgley and Chris Howlett on where AI still falls short.
+Our analysis: the accounts suggest the market is dividing by volume, not by beauty. Fast, high-volume catalog work and its crews face real pressure, while careful high-end shoots change more slowly. These are chosen stories, not a survey, and no source gives a reliable total of jobs lost.
+
+Chapters
+0:00 The studio that closed
+0:53 Why hire a photographer?
+1:18 The fear, stated fairly
+2:00 Losses beyond the camera
+2:37 One photo, many paid jobs
+3:29 What clients ask for now
+4:16 The strongest counter
+5:14 Volume, not beauty
+6:04 More pictures, less pay?
+6:33 Who wins, who pays
+7:35 Our forecast
+8:20 Your turn
+
+Our forecast: in the first comparable Association of Photographers survey published in 2027, at least half of responding members will again report losing paid work to AI. Confidence: likely (about 65%). Wrong if below half; unresolved if no comparable survey appears in 2027.
+
+Sources
+Evidence:
+- UK professional photography trade association: AOP Copyright & AI Member Survey Results, January 2026 https://www.the-aop.org/uploads/aop-member-survey-copyright-ai-january-2026.pdf
+- Reuters: Fashion's AI era: face swaps and digital clones https://www.reuters.com/legal/litigation/fashions-ai-era-face-swaps-digital-clones-2026-10-27/
+
+Signals (individual accounts, unverified unless stated):
+- Unverified self-described commercial photographers and assistants: Public Reddit commercial-worker accounts: product photographers and photo assistants https://www.reddit.com/r/productphotography/comments/1tmpukb/product_photographer_replaced/
+- Wonderful Machine; photography production and consulting business: 2026 State of the Photo Industry Survey https://wonderfulmachine.com/article/state-of-the-photo-industry-2026/
+- Self (writer and e-commerce stylist): AI stole my styling job https://1granary.substack.com/p/ai-stole-my-styling-job
+- TalkPhotography forum (UK): High skill/high quality photography being rejected as AI? https://www.talkphotography.co.uk/posts/9742333/
+
+Insider views:
+- PHLEARN; Photoshop Training Channel; PhotoshopCAFE: The Future of Photo Editing: The State of the Industry in 2026 https://phlearn.com/magazine/future-of-photo-editing/
+- Independent commercial food/product photographer; own business website: Real Food Product Photography Beats AI: Why Leading Brands Still Choose the Camera https://www.howlettphoto.com/blog/real-food-product-photography-beats-ai
+- Thomsen Photography; Profoto ambassador; AI-Mindset educator: How photographer Ines Thomsen lights up AI images with Profoto https://www.profoto.com/ee/en/still-photography/profoto-stories/how-photographer-ines-thomsen-lights-up-ai-images-with-profoto/BlogPage
+- Commercial photographer/creative director; Yummy Production, as identified in article biography: A Commercial Photographer's Take on When to Use AI (and When Not To) https://petapixel.com/2026/05/10/a-commercial-photographers-take-on-when-to-use-ai-and-when-not-to/
+- PetaPixel: Photographers Raise Concerns as AI Use Surges Among Clients https://petapixel.com/2026/04/22/photographers-raise-concerns-as-ai-use-surges-among-clients/
+- Fstoppers contributor; commercial fashion photographer: Has AI Ended My Fashion Photography Career? https://fstoppers.com/artificial-intelligence/ai-ended-my-fashion-photography-career-901334
+
+Company claims:
+- Fashion retailer; first-party marketing announcement: H&M continues its exploration of creativity with AI https://hmgroup.com/news/hm-continues-its-exploration-of-creativity-with-ai/
+
+Made with AI: the narration voice is synthetic and the illustrations are AI-generated and clearly illustrative, not photographs of real people or events. AI tools assist production; research and editorial decisions are human-reviewed.
+Corrections: if new evidence changes our verdict, we log it and follow up.
+
+Watch the video: https://youtu.be/NHCJTHm4VpA]]></itunes:summary>
+      <enclosure url="https://whogetstomorrow.github.io/podcast/audio/en/special-001-ai-commercial-photography.mp3" length="12750520" type="audio/mpeg"/>
+      <guid isPermaLink="false">special-001-ai-commercial-photography-en</guid>
+      <pubDate>Fri, 13 Nov 2026 18:27:49 GMT</pubDate>
+      <itunes:duration>00:08:49</itunes:duration>
+      <itunes:image href="https://whogetstomorrow.github.io/podcast/art/en-special-001-ai-commercial-photography.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
